@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+## ReleaseKit
 
-You can use the [editor on GitHub](https://github.com/MrTWrecks0208/ReleaseKit/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+ReleaseKit is made up of multiple of shortcuts which together aim to simplify and improve the shortcuts release process for shortcut developers and also create a more robust, feature-rich experience for end users.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### [miCloud](https://github.com/MrTWrecks0208/ReleaseKit/miCloud) &#9729;
 
-### Markdown
+miCloud is a storage and version control shortcut that serves as the underlying structure and foundation for ReleaseKit. miCloud stored both Builds and Releases. Each Build and Release is subgrouped into Major Versions and further subgrouped into Minor Versions. A folder is created for each Build and Release and all data is stored in the respective folder for the shortcut. All shortcuts included in ReleaseKit pull data from miCloud.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### [Release Notes](https://github.com/MrTWrecks0208/ReleaseKit/ReleaseNotes) 🚀
 
-```markdown
-Syntax highlighted code block
+Release Notes is, as the name suggest, for release notes. Release Notes are a piece of documentation that accompany the release of a version of a software. Release notes include new features, bug fixes, and enhancements/improvements. The Release Notes shortcut also includes sections for additional resources and general notes. Release notes help to inform end-users and keep them aware of changes to a shortcut.
 
-# Header 1
-## Header 2
-### Header 3
+### [Screens](https://github.com/MrTWrecks0208/ReleaseKit/Screens) 📺
 
-- Bulleted
-- List
+Screens helps developers create various screens for use in their shortcuts.
 
-1. Numbered
-2. List
+Screen options include:
+ * Welcome
+ * Onboarding
+ * Promotional
+ * Support
+ * CloudCuts
 
-**Bold** and _Italic_ and `Code` text
+### [Docs](https://github.com/MrTWrecks0208/ReleaseKit/Docs) 📝
 
-[Link](url) and ![Image](src)
-```
+Docs helps developers create documentation for their shortcuts. 
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Options include:
+  * ReadMe
+  * Release Notes
+  * Changelog
+  * Roadmap
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MrTWrecks0208/ReleaseKit/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
