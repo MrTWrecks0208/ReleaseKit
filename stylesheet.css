@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family="Open+Sans:wght@300;400&family=Lato:wght@300;400;500;600&display=swap");
+
+body {
+  background: #001730;
+  overflow-x: hidden !important;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 2.6rem;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: -0.5px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #fec200;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: normal;
+  line-height: 1.25;
+  text-transform: none;
+  text-decoration: none;
+  color: #fff;
+}
+ 
+a {
+  color: blue;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: inherit;
+  text-decoration-skip: ink;
+}
+
+#main-ctr {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 50px 0 20px 20px;
+}
+
+ul {
+  list-style-type: disc;
+  padding: 0 5px;
+  margin: 10px 0 10px 30px;
+}
+
+li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: left;
+  color: #fff;
+}
