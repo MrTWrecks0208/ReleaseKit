@@ -1,253 +1,230 @@
 <html>
-<title>ReleaseKit</title>
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
-	<style>
-		@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Raleway:wght@100;300;400;500&family=Roboto:wght@300;400;500;600&family=Poppins:wght@100;300;400;500;600&family=Poppins+Light:wght@100;200;300;400&family=Lato:wght@300;400;500;600&family=Roboto+Slab:wght@300;400;500;600&display=swap");
-
-		body {
-			width: 100%;
-			background-color: #001730;
-			overflow-x: hidden !important;
-		}
-
-		.ribbon-wrapper {
-			width: 220px;
-			height: 120px;
-			position: absolute;
-			top: 26px;
-			left: 26px;
-		}
-
-		.ribbon-wrapper .ribbon {
-			font-size: 1rem;
-			text-align: center;
-			letter-spacing: normal;
-			text-transform: none;
-			font-weight: 600;
-			font-family: 'Open Sans', san-serif;
-			text-align: center;
-			-webkit-transform: rotate(-45deg);
-			position: relative;
-			padding: 7px 0;
-			top: 10px;
-			left: -75px;
-			width: 200px;
-			background-color: #6F00FF;
-			color: #FFFFFF;
-		}
-
-		#head-ctr {
-			display: block;
-			position: relative;
-			width: 100%;
-			text-align: left;
-			padding: 0;
-			margin-top: 120px;
-			margin-bottom: 15px;
-			margin-left: 40px;
-		}
-
-		h1 {
-			font-family: 'Lato', sans-serif;
-			font-size: 41px;
-			font-weight: 200;
-			color: #FEC200;
-			letter-spacing: -0.5px;
-			text-align: left;
-			line-height: 1.2;
-			text-transform: capitalize;
-			text-decoration: none;
-		}
-
-		#description-ctr {
-			display: block;
-			position: relative;
-			width: 100%;
-			margin-left: 40px;
-			margin-bottom: 50px;
-		}
-
-		p {
-			font-family: 'Open Sans', sans-serif;
-			font-size: 1rem;
-			font-weight: 400;
-			color: #FFFFFF;
-			letter-spacing: normal;
-			line-height: normal;
-			margin-left: 0;
-			text-align: left;
-			white-space: normal;
-			margin-bottom: 20px;
-			padding-right: 15%;
-		}
-
-		.list-ctr {
-			display: block;
-			position: relative;
-			width: 100%;
-			margin-bottom: 40px;
-			margin-left: 40px;
-			text-align: left;
-			padding: 0;
-		}
-
-		.pill {
-			display: block;
-			border-radius: 4px;
-			max-width: 200px;
-			height: 36px;
-			margin-bottom: 5px;
-			margin-top: 5px;
-			margin-left: 0;
-			padding: 0 5px;
-		}
-
-		h2 {
-			font-family: 'Lato', sans-serif;
-			font-size: 1.4rem;
-			font-weight: 400;
-			color: #FFFFFF;
-			letter-spacing: normal;
-			line-height: 1.6;
-			text-align: left;
-			margin-left: 5px;
-			padding-right: 5px;
-		}
-
-		ul {
-			padding: 0;
-			margin-left: 20px;
-			margin-top: 20px;
-			list-style-type: disc;
-			list-style-position: inside;
-			text-indent: -1rem;
-			padding-left: 1rem;
-		}
-
-		li {
-			font-family: 'Open Sans', sans-serif;
-			font-size: 1rem;
-			font-weight: 400;
-			color: #FFFFFF;
-			text-align: left;
-			white-space: normal;
-			letter-spacing: normal;
-			line-height: normal;
-			margin-left: 0;
-			margin-top: 5px;
-			margin-bottom: 5px;
-		}
-
-		a {
-			color: #FFFFFF;
-			text-decoration: none;
-		}
-
-		.miCloud {
-			background-color: #43BEE5;
-		}
-
-		.release-notes {
-			background-color: #FEC200;
-		}
-
-		.docs {
-			background-color: #7600CD;
-		}
-		
-		.screens {
-			background-color: #F40058;
-		}
-
-		.avatars {
-			background-color: #05A391;
-		}
-
-		footer {
-			position: relative;
-			width: 100%;
-			background-color: #0ABAB5;
-			text-align: center;
-		}
-
-		#ftr-txt {
-			font-family: 'Open Sans', sans-serif;
-			font-size: .85rem;
-			font-weight: 300;
-			color: #FFFFFF;
-			text-align: center;
-			margin: 0 auto;
-		}
-
-		#push {
-			display: block;
-			position: relative;
-			height: 100px;
-			width: 100%;
-			background-color: transparent;
-			color: transparent;
-		}
-	</style>
-</head>
-
-<body>
-	<div class="ribbon-wrapper">
-		<div class="ribbon">Mr.T-Wrecks &#129430;</div>
-	</div>
-	<div id="head-ctr">
-		<h1>ReleaseKit&nbsp;&#128640;</h1>
-	</div>
-	<div id="description-ctr">
-		<p>ReleaseKit is made up of multiple of shortcuts which together aim to simplify and improve the shortcuts release process for shortcut developers and also create a more robust and feature-rich experience for end users.</p>
-	</div>
-	<div class="list-ctr">
-		<div class="pill miCloud">
-			<h2>&#9729;<a href="https://github.com/MrTWrecks0208/ReleaseKit/miCloud">&nbsp;miCloud</a></h2>
-		</div>
-		<p>miCloud is a storage and version control shortcut that serves as the underlying structure and foundation for ReleaseKit. miCloud stored both Builds and Releases. Each Build and Release is subgrouped into Major Versions and further subgrouped into Minor Versions. A folder is created for each Build and Release and all data is stored in the respective folder for the shortcut. All shortcuts included in ReleaseKit pull data from miCloud.</p>
-	</div>
-	<div class="list-ctr">
-		<div class="pill release-notes">
-			<h2>🚀&nbsp;<a href="https://github.com/MrTWrecks0208/ReleaseKit/ReleaseNotes">Release Notes</a></h2>
-		</div>
-		<p>Release Notes is, as the name suggest, for release notes. Release Notes are a piece of documentation that accompany the release of a version of a software. Release notes include new features, bug fixes, and enhancements/improvements. The Release Notes shortcut also includes sections for additional resources and general notes. Release notes help to inform end-users and keep them aware of changes to a shortcut.</p>
-	</div>
-	<div class="list-ctr">
-		<div class="pill screens">
-			<h2>📺&nbsp;<a href="https://github.com/MrTWrecks0208/ReleaseKit/Screens">Screens</a></h2>
-		</div>
-		<p>Screens helps developers create various screens for use in their shortcuts.<br /><br />Screen options include:</p>
-		<ul>
-			<li>Welcome</li>
-			<li>Onboarding</li>
-			<li>Promotional</li>
-			<li>Support</li>
-			<li>CloudCuts</li>
-		</ul>
-	</div>
-	<div class="list-ctr">
-		<div class="pill docs">
-			<h2>📝&nbsp;<a href="https://github.com/MrTWrecks0208/ReleaseKit/Docs">Docs</a></h2>
-		</div>
-		<p>Docs helps developers create documentation for their shortcuts.<br /><br />Options include:</p>
-		<ul>
-			<li>ReadMe</li>
-			<li>Release Notes</li>
-			<li>Changelog</li>
-			<li>Roadmap</li>
-		</ul>
-	</div>
-	<div class="list-ctr">
-		<div class="pill avatars">
-			<h2>&#128126;&nbsp;<a href="https://github.com/MrTWrecks0208/ReleaseKit/Avatars">Avatars</a></h2>
-		</div>
-	</div>
-	<div id="push"></div>
-	<footer>
-		<p id="ftr-txt">&#169;2022&nbsp;<a href="https://routinehub.co/user/Mr.T-Wrecks">Mr.T-Wrecks&nbsp;&nbsp;</a><span style="color:purple">&#129430;</span></p>
-	</footer>
-</body>
+  <title>ReleaseKit</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Raleway:wght@100;300;400;500&family=Roboto:wght@300;400;500;600&family=Poppins:wght@100;300;400;500;600&family=Poppins+Light:wght@100;200;300;400&family=Lato:wght@300;400;500;600&family=Roboto+Slab:wght@300;400;500;600&display=swap");
+      body {
+      width: 100%;
+      background-color: #001730;
+      overflow-x: hidden !important;
+      }
+      .ribbon-wrapper {
+      width: 220px;
+      height: 120px;
+      position: absolute;
+      top: 26px;
+      left: 26px;
+      }
+      .ribbon-wrapper .ribbon {
+      font-size: 1rem;
+      text-align: center;
+      letter-spacing: normal;
+      text-transform: none;
+      font-weight: 600;
+      font-family: 'Open Sans', san-serif;
+      text-align: center;
+      -webkit-transform: rotate(-45deg);
+      position: relative;
+      padding: 7px 0;
+      top: 10px;
+      left: -75px;
+      width: 200px;
+      background-color: #6F00FF;
+      color: #FFFFFF;
+      }
+      #head-ctr {
+      display: block;
+      position: relative;
+      width: 100%;
+      text-align: left;
+      padding: 0;
+      margin-top: 120px;
+      margin-bottom: 15px;
+      margin-left: 40px;
+      }
+      h1 {
+      font-family: 'Lato', sans-serif;
+      font-size: 41px;
+      font-weight: 200;
+      color: #FEC200;
+      letter-spacing: -0.5px;
+      text-align: left;
+      line-height: 1.2;
+      text-transform: capitalize;
+      text-decoration: none;
+      }
+      #description-ctr {
+      display: block;
+      position: relative;
+      width: 100%;
+      margin-left: 40px;
+      margin-bottom: 50px;
+      }
+      p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+      color: #FFFFFF;
+      letter-spacing: normal;
+      line-height: normal;
+      margin-left: 0;
+      text-align: left;
+      white-space: normal;
+      margin-bottom: 20px;
+      padding-right: 15%;
+      }
+      .list-ctr {
+      display: block;
+      position: relative;
+      width: 100%;
+      margin-bottom: 40px;
+      margin-left: 40px;
+      text-align: left;
+      padding: 0;
+      }
+      .pill {
+      display: block;
+      border-radius: 4px;
+      max-width: 200px;
+      height: 36px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      margin-left: 0;
+      padding: 0 5px;
+      }
+      h2 {
+      font-family: 'Lato', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: #FFFFFF;
+      letter-spacing: normal;
+      line-height: 1.6;
+      text-align: left;
+      margin-left: 5px;
+      padding-right: 5px;
+      }
+      ul {
+      padding: 0;
+      margin-left: 20px;
+      margin-top: 20px;
+      list-style-type: disc;
+      list-style-position: inside;
+      text-indent: -1rem;
+      padding-left: 1rem;
+      }
+      li {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+      color: #FFFFFF;
+      text-align: left;
+      white-space: normal;
+      letter-spacing: normal;
+      line-height: normal;
+      margin-left: 0;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      }
+      a {
+      color: #FFFFFF;
+      text-decoration: none;
+      }
+      .miCloud {
+      background-color: #43BEE5;
+      }
+      .release-notes {
+      background-color: #FEC200;
+      }
+      .docs {
+      background-color: #7600CD;
+      }
+      .screens {
+      background-color: #F40058;
+      }
+      .avatars {
+      background-color: #05A391;
+      }
+      footer {
+      position: relative;
+      width: 100%;
+      background-color: #0ABAB5;
+      text-align: center;
+      }
+      #ftr-txt {
+      font-family: 'Open Sans', sans-serif;
+      font-size: .85rem;
+      font-weight: 300;
+      color: #FFFFFF;
+      text-align: center;
+      margin: 0 auto;
+      }
+      #push {
+      display: block;
+      position: relative;
+      height: 100px;
+      width: 100%;
+      background-color: transparent;
+      color: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ribbon-wrapper">
+      <div class="ribbon">Mr.T-Wrecks &#129430;</div>
+    </div>
+    <div id="head-ctr">
+      <h1>ReleaseKit&nbsp;&#128640;</h1>
+    </div>
+    <div id="description-ctr">
+      <p>ReleaseKit is made up of multiple of shortcuts which together aim to simplify and improve the shortcuts release process for shortcut developers and also create a more robust and feature-rich experience for end users.</p>
+    </div>
+    <div class="list-ctr">
+      <div class="pill miCloud">
+        <h2>&#9729;<a href="https://github.com/MrTWrecks0208/ReleaseKit/miCloud">&nbsp;miCloud</a></h2>
+      </div>
+      <p>miCloud is a storage and version control shortcut that serves as the underlying structure and foundation for ReleaseKit. miCloud stored both Builds and Releases. Each Build and Release is subgrouped into Major Versions and further subgrouped into Minor Versions. A folder is created for each Build and Release and all data is stored in the respective folder for the shortcut. All shortcuts included in ReleaseKit pull data from miCloud.</p>
+    </div>
+    <div class="list-ctr">
+      <div class="pill release-notes">
+        <h2>🚀&nbsp;<a href="https://github.com/MrTWrecks0208/ReleaseKit/ReleaseNotes">Release Notes</a></h2>
+      </div>
+      <p>Release Notes is, as the name suggest, for release notes. Release Notes are a piece of documentation that accompany the release of a version of a software. Release notes include new features, bug fixes, and enhancements/improvements. The Release Notes shortcut also includes sections for additional resources and general notes. Release notes help to inform end-users and keep them aware of changes to a shortcut.</p>
+    </div>
+    <div class="list-ctr">
+      <div class="pill screens">
+        <h2>📺&nbsp;<a href="https://github.com/MrTWrecks0208/ReleaseKit/Screens">Screens</a></h2>
+      </div>
+      <p>Screens helps developers create various screens for use in their shortcuts.<br /><br />Screen options include:</p>
+      <ul>
+        <li>Welcome</li>
+        <li>Onboarding</li>
+        <li>Promotional</li>
+        <li>Support</li>
+        <li>CloudCuts</li>
+      </ul>
+    </div>
+    <div class="list-ctr">
+      <div class="pill docs">
+        <h2>📝&nbsp;<a href="https://github.com/MrTWrecks0208/ReleaseKit/Docs">Docs</a></h2>
+      </div>
+      <p>Docs helps developers create documentation for their shortcuts.<br /><br />Options include:</p>
+      <ul>
+        <li>ReadMe</li>
+        <li>Release Notes</li>
+        <li>Changelog</li>
+        <li>Roadmap</li>
+      </ul>
+    </div>
+    <div class="list-ctr">
+      <div class="pill avatars">
+        <h2>&#128126;&nbsp;<a href="https://github.com/MrTWrecks0208/ReleaseKit/Avatars">Avatars</a></h2>
+      </div>
+    </div>
+    <div id="push"></div>
+    <footer>
+      <p id="ftr-txt">&#169;2022&nbsp;<a href="https://routinehub.co/user/Mr.T-Wrecks">Mr.T-Wrecks&nbsp;&nbsp;</a><span style="color:purple">&#129430;</span></p>
+    </footer>
+  </body>
 </html>
