@@ -192,6 +192,63 @@
       background-color: transparent;
       color: transparent;
       }
+      * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  margin-left: 20px;
+}
+.wtree li {
+  list-style-type: none;
+  margin: 10px 0 10px 10px;
+  position: relative;
+}
+.wtree li:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -20px;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  width: 20px;
+  height: 15px;
+}
+.wtree li:after {
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: -20px;
+  border-left: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  width: 20px;
+  height: 100%;
+}
+.wtree li:last-child:after {
+  display: none;
+}
+.wtree li span {
+  display: block;
+  border: 1px solid #ddd;
+  padding: 10px;
+  color: #888;
+  text-decoration: none;
+}
+.wtree li span:hover, .wtree li span:focus {
+  background: #eee;
+  color: #000;
+  border: 1px solid #aaa;
+}
+.wtree li span:hover + ul li span, .wtree li span:focus + ul li span {
+  background: #eee;
+  color: #000;
+  border: 1px solid #aaa;
+}
+.wtree li span:hover + ul li:after, .wtree li span:hover + ul li:before, .wtree li span:focus + ul li:after, .wtree li span:focus + ul li:before {
+  border-color: #aaa;
+}
     </style>
   </head>
   <body>
@@ -200,18 +257,56 @@
     </div>
     <div id="description-ctr">
       <h2>What is ReleaseKit?</h2>
-      <p>ReleaseKit is the first complete suite of tools designed to simplify and improve the release process of shortcuts for developers and create a more robust, helpful, and feature-rich experience for end-users.</p>
-      <h2>When will ReleaseKit be available?</h2>
-      <p>A few of the tools are already available individually on RoutineHub, such as miCloud, CloudCuts, Release Notes (which is listed under the title "ReleaseKit"), and both Screens and Docs, which are available, albeit in a somewhat limited capacity, under the title "PromoKit". I will provide links to these shortcuts at a later date. I have slowly been incorporating features related to ReleaseKit in each new version of these shortcuts for some time now and the underlying foundation which ties them all together is mostly intact.<br /><br />Aside from that, the short answer is, 'I don't know'. Trying to re-configure completed, stand-alone shortcuts into a unified suite of tools which are dependent upon each other and to provide a seamless and non-fragmented experience for end-users has, admittedly, been challenging and time-consuming, especially considering I am the sole developer working on ReleaseKit. However, it is coming along and I will continue to provide periodic updates to the community throughout the process.</p> 
-      <h2>Why are the shortcuts listed individually?</h2>
-      <p>Simply because the idea came <em>after&nbsp;</em> the shortcuts. I didn't develop the concept for ReleaseKit until seeing all the release-oriented developer tools I had already released and deciding to package these individual tools together and create ReleaseKit.</p> 
+      <p>ReleaseKit is the first complete suite of tools designed to simplify and improve the process of releasing shortcuts for shortcut developers and to create a more robust, helpful, and feature-rich experience for end-users.</p>
+      <h2>Project Timeline</h2>
+      <p>As of writing, a few of the tools included in ReleaseKit are already available separately on RoutineHub such as miCloud, CloudCuts, Release Notes (listed under the title "ReleaseKit"), and Screens, which is available in a limited capacity under the title "PromoKit". I will provide links to these shortcuts soon. I have slowly been implementing features related to ReleaseKit in each new version of these shortcuts for some time now, and the underlying foundation which ties them all together is mostly intact.<br /><br />I wish I could provide a more accurate timeline, but that is not something I can do at this time. Trying to re-configure completed, stand-alone shortcuts into a unified suite of tools which are dependent upon each other and to provide a seamless, non-fragmented experience for end-users has, admittedly, been as challenging as it has been time-consuming, considering I am the sole developer working on ReleaseKit. However, it is coming along! I will continue to provide periodic updates to the community throughout the process.</p> 
+      <h2>Why are the shortcuts listed separately?</h2>
+      <p>Simply because the idea for ReleaseKit came <em>after&nbsp;</em> the shortcuts. I didn't develop the concept for ReleaseKit until seeing all the release-oriented developer tools I had already released and deciding to package these individual tools together to create ReleaseKit.</p> 
     </div>
-    <h2><span style="color:#fb8122;font-size: 1.7rem">ReleaseKit includes</span></h2>
+    <h2><span style="color:#fb8122;font-size: 1.7rem">Apps included in ReleaseKit</span></h2>
     <div class="list-ctr">
       <div class="pill miCloud">
         <h3>&#9729;<a href="https://github.com/MrTWrecks0208/ReleaseKit/miCloud">&nbsp;miCloud</a></h3>
       </div>
-      <p>miCloud is a storage solution and version control system for Shortcuts which serves as the underlying structure and foundation for ReleaseKit. miCloud groups shortcuts into two categories, 'Builds' and 'Releases'. Each Build and Release is subgrouped into 'Major Versions', then further subgrouped into 'Minor Versions'. miCloud creates a folder for each shortcut saved. A dictionary including general details & metadata of the shortcut and also the user is also created. All data for a shortcut is stored in its respective folder. All shortcuts included in ReleaseKit pull data from miCloud.</p>
+      <p>miCloud is a storage solution and version control system for Shortcuts which serves as the underlying structure and foundation for ReleaseKit. miCloud groups shortcuts into two categories, 'Builds' and 'Releases'. Each Build and Release is subgrouped into 'Major Versions', then further subgrouped into 'Minor Versions'. This is better demonstrated below in Figure 1 miCloud creates a folder for each shortcut saved. A dictionary including general details & metadata of the shortcut and also the user is also created. All data for a shortcut is stored in its respective folder. All shortcuts included in ReleaseKit pull data from miCloud.</p>
+      <h4 class="title">Shortcut</h4>
+<ul class="wtree">
+   <li>
+    <span class="build">Builds</span>
+    <ul>
+      <li>
+        <span class="build">v0</span>
+        <ul>
+          <li>
+            <span>v0.1.0.0</span>
+          </li>
+          <li>
+            <span>v0.1.1.0</span>
+          </li>
+        </ul>
+            <li>
+            <span>v1</span>
+      <ul>
+        <li>
+          <span>v1.0.1.0</span>
+        </li>
+      </ul>
+        
+      </li>
+        </ul>
+     <li>
+       <span class="release">Releases</span>
+       <ul>
+        <li>
+           <span>v1</span>
+         <ul>
+           <li>
+             <span>v1.0.0</span>
+           </li>
+           <li>
+             <span>v1.1.0</span>
+           </li>
+</ul>
     </div>
     <div class="list-ctr">
       <div class="pill release-notes">
