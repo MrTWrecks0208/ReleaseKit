@@ -2,7 +2,7 @@
 ReleaseKit generates Release Notes for Apple Shortcuts
 
 
-ReleaseKit is made up of multiple of shortcuts which together aim to simplify and improve the shortcuts release process for shortcut developers and also create a more robust, feature-rich experience for end users.
+ReleaseKit is made up of multiple shortcuts which together aim to simplify and improve the shortcuts release process for shortcut developers and also create a more robust, feature-rich experience for end users.
 
 ### [miCloud](https://github.com/MrTWrecks0208/ReleaseKit/miCloud) &#9729;
 
