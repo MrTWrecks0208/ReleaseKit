@@ -6,11 +6,11 @@ ReleaseKit is made up of multiple shortcuts which together aim to simplify and i
 
 ### [miCloud](https://github.com/MrTWrecks0208/ReleaseKit/miCloud) &#9729;
 
-miCloud is a storage and version control shortcut that serves as the underlying structure and foundation for ReleaseKit. miCloud stored both Builds and Releases. Each Build and Release is subgrouped into Major Versions and further subgrouped into Minor Versions. A folder is created for each Build and Release and all data is stored in the respective folder for the shortcut. All shortcuts included in ReleaseKit pull data from miCloud.
+miCloud is a storage and version control shortcut that serves as the underlying structure and foundation for ReleaseKit. miCloud stores both Builds and Releases. Each Build and Release is divided by Major Versions and further subdivided by Minor Versions. A folder is created for each Build and Release and all data is stored in the respective folder for the shortcut. All shortcuts included in ReleaseKit pull data from miCloud.
 
 ### [Release Notes](https://github.com/MrTWrecks0208/ReleaseKit/ReleaseNotes) 🚀
 
-Release Notes is, as the name suggest, for release notes. Release Notes are a piece of documentation that accompany the release of a version of a software. Release notes include new features, bug fixes, and enhancements/improvements. The Release Notes shortcut also includes sections for additional resources and general notes. Release notes help to inform end-users and keep them aware of changes to a shortcut.
+Release Notes is, as the name suggests, for release notes. Release Notes refers to documentation that accompanies the release of a version of a software. Release notes include new features, bug fixes, and enhancements/improvements. The Release Notes shortcut also includes sections for additional resources and general notes. Release notes help to inform end-users and keep them aware of changes to a shortcut.
 
 ### [Screens](https://github.com/MrTWrecks0208/ReleaseKit/Screens) 📺
 
