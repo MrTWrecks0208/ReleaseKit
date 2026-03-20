@@ -1,16 +1,16 @@
 # ReleaseKit
-ReleaseKit generates Release Notes for Apple Shortcuts
+ReleaseKit generates release notes for Apple Shortcuts
 
 
-ReleaseKit is made up of multiple shortcuts which together aim to simplify and improve the shortcuts release process for shortcut developers and also create a more robust, feature-rich experience for end users.
+ReleaseKit is a suite of tools which together aim to streamline and improve the shortcuts release process for shortcut developers and also create a more robust, feature-rich experience for end users.
 
 ### [miCloud](https://github.com/MrTWrecks0208/ReleaseKit/miCloud) &#9729;
 
-miCloud is a storage and version control shortcut that serves as the underlying structure and foundation for ReleaseKit. miCloud stores both Builds and Releases. Each Build and Release is divided by Major Versions and further subdivided by Minor Versions. A folder is created for each Build and Release and all data is stored in the respective folder for the shortcut. All shortcuts included in ReleaseKit pull data from miCloud.
+miCloud is a storage and version control tool that acts as the underlying structure and foundation for ReleaseKit. miCloud stores both Builds and Releases. Each Build and Release is grouped by Major Version and further subgrouped by Minor Version. A folder is created for each Build and Release and all shortcut data is stored in its respective folder. All shortcuts added to ReleaseKit pull their data from miCloud.
 
 ### [Release Notes](https://github.com/MrTWrecks0208/ReleaseKit/ReleaseNotes) 🚀
 
-Release Notes is, as the name suggests, for release notes. Release Notes refers to documentation that accompanies the release of a version of a software. Release notes include new features, bug fixes, and enhancements/improvements. The Release Notes shortcut also includes sections for additional resources and general notes. Release notes help to inform end-users and keep them aware of changes to a shortcut.
+Release Notes is, as the name suggests, for release notes. Release Notes refers to documentation that accompanies the release of a version of a software. Release notes include new features, bug fixes, and enhancements/improvements. The Release Notes shortcut also includes sections for resources and general notes. Release notes help to inform end-users and keep them aware of changes to a shortcut.
 
 ### [Screens](https://github.com/MrTWrecks0208/ReleaseKit/Screens) 📺
 
