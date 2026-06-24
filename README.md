@@ -10,7 +10,7 @@ miCloud is a storage and version control tool that acts as the underlying struct
 
 ### [Release Notes](https://github.com/MrTWrecks0208/ReleaseKit/ReleaseNotes) 🚀
 
-Release Notes is, as the name suggests, for release notes. Release Notes refers to documentation that accompanies the release of a version of a software. Release notes include new features, bug fixes, and enhancements/improvements. The Release Notes shortcut also includes sections for resources and general notes. Release notes help to inform end-users and keep them aware of changes to a shortcut.
+Release Notes is, as the name suggests, for release notes. Release Notes refers to documentation that accompanies the release of a version of a software. Release notes include new features, bug fixes, and enhancements/improvements. The Release Notes shortcut also includes sections for resources, deprecations, and general notes. Release notes help to inform end-users and keep them aware of changes to a shortcut.
 
 ### [Screens](https://github.com/MrTWrecks0208/ReleaseKit/Screens) 📺
 
